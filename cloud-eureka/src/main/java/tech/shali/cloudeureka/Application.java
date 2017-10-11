@@ -1,9 +1,8 @@
-package tech.shali.project.app;
+package tech.shali.cloudeureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  *  启动类
@@ -13,7 +12,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  */
 @SpringBootApplication
 @EnableEurekaServer
-@EnableZuulProxy
+//@EnableZuulProxy
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);

@@ -10,6 +10,7 @@
 .mtj.tmp/
 
 # Package Files #
+*.jar
 *.war
 *.ear
 *.zip
@@ -21,11 +22,3 @@ hs_err_pid*
 .idea
 *.iml
 target/
-.gitignore
-.mvn/
-mvnw
-mvnw.cmd
-pom.xml
-src/main/java/
-src/test/
-.mvn/wrapper/maven-wrapper.properties
