@@ -10,14 +10,3 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 0
     enableSelfPreservation: false
-
-#zuul:
-#  prefix: /api
-#  routes:
-#    base:
-#      path: /base/**
-#      serviceId: base-service
-
-#ribbon:
-#  eureka:
-#    enabled: true
